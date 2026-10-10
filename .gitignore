@@ -1,0 +1,29 @@
+__pycache__/
+*.pyc
+*.parquet
+adult.data
+adult.test
+adult_test_clean.csv
+venv/
+.venv/
+.DS_Store
+.claude/
+
+# Artefacts Spark locaux
+derby.log
+metastore_db/
+spark-warehouse/
+
+# Checkpoints / cache Python
+.ipynb_checkpoints/
+*.log
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Variables d'environnement (si tu as des clés/config sensibles)
+.env
+.env.*
